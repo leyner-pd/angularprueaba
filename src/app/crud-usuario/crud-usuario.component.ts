@@ -28,7 +28,7 @@ export class CrudUsuarioComponent implements OnInit {
   titulo = 'hola esto es una prueba';
   edad = 0;
   change=ELEMENT_DATA;
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol', 'Gestion'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
 
   constructor(private servicioBacked:RequestBackendService) {

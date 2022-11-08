@@ -19,6 +19,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { EditorNombreComponent } from './crud-usuario/editor-nombre/editor-nombre.component';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent,
